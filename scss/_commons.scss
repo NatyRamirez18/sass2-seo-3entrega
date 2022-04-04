@@ -1,0 +1,46 @@
+// variables
+
+//colores
+$mainColor:rgba(30,250,255,.5);
+$secondaryColor:rgba(130,188,250,.3);
+$keyColor: rgba(66,200,255,.7);
+
+
+.btn-all{
+		background-color: #3B252F;
+		font:'Roboto Condensed';
+		color: whitesmoke;
+		width: 35%;
+		&:hover{
+			background-color: #694646;
+		}
+	}
+
+.btn-footer{
+	@extend .btn-all;
+
+}
+
+$paleta: (
+	'uno':#5fdff4, 
+    'dos':#37b5c9,
+    'tres':#1e4b52,
+    'cuatro':#78daea,
+    'cinco':#56c7c2,
+    'seis':#5cb0ad,
+    'siete':#4c3631,
+    'ocho':#423836,
+    'nueve':#1e1614,
+    'diez':#a1849a,);
+
+@mixin text($font-size,$color,$text-transform,){
+	font-size:$font-size;
+	color:$color;
+	text-transform:$text-transform;
+}
+
+
+
+
+
+

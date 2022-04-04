@@ -1,0 +1,17 @@
+.encabezado1{
+	@include text($textLg,map-get($map:$paleta,$key:'nueve'),uppercase);
+
+}
+
+.encabezado2{
+	@include text($textMd,map-get($map:$paleta,$key:'ocho'),uppercase);
+
+}
+
+.encabezado3{
+	@include text(1.5em,map-get($map:$paleta,$key:'siete'),uppercase);
+}
+
+
+
+

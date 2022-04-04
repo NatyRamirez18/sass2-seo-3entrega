@@ -1,0 +1,10 @@
+.navHead{
+	background-color: map-get($map:$paleta,$key:'cinco');
+	a{
+		&:hover{
+			color: black;
+			font-weight: 600;
+		}
+	}
+}
+
